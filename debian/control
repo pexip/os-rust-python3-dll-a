@@ -1,0 +1,43 @@
+Source: rust-python3-dll-a
+Section: rust
+Priority: optional
+Build-Depends: debhelper (>= 12),
+ dh-cargo (>= 25),
+ cargo:native <!nocheck>,
+ rustc:native <!nocheck>,
+ libstd-rust-dev <!nocheck>,
+ librust-cc-1+default-dev (>= 1.0.71-~~) <!nocheck>,
+ llvm <!nocheck>,
+ binutils-mingw-w64-x86-64 <!nocheck>,
+ binutils-mingw-w64-i686 <!nocheck>,
+ llvm,
+ binutils-mingw-w64-x86-64,
+ binutils-mingw-w64-i686
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders:
+ Jelmer Vernooĳ <jelmer@debian.org>
+Standards-Version: 4.5.1
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/python3-dll-a]
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/python3-dll-a
+Rules-Requires-Root: no
+
+Package: librust-python3-dll-a-dev
+Architecture: any
+Multi-Arch: same
+Depends:
+ ${misc:Depends},
+ librust-cc-1+default-dev (>= 1.0.71-~~),
+ llvm,
+ binutils-mingw-w64-x86-64,
+ binutils-mingw-w64-i686
+Provides:
+ librust-python3-dll-a+default-dev (= ${binary:Version}),
+ librust-python3-dll-a-0-dev (= ${binary:Version}),
+ librust-python3-dll-a-0+default-dev (= ${binary:Version}),
+ librust-python3-dll-a-0.2-dev (= ${binary:Version}),
+ librust-python3-dll-a-0.2+default-dev (= ${binary:Version}),
+ librust-python3-dll-a-0.2.3-dev (= ${binary:Version}),
+ librust-python3-dll-a-0.2.3+default-dev (= ${binary:Version})
+Description: Standalone python3(y).dll import library generator - Rust source code
+ This package contains the source for the Rust python3-dll-a crate, packaged by
+ debcargo for use with cargo and dh-cargo.
