@@ -1,3 +1,9 @@
+rust-python3-dll-a (0.2.3-1pexip1) pexip; urgency=medium
+
+  * Prepare Pexip packaging
+
+ -- John-Mark Bell <jmb@pexip.com>  Wed, 16 Nov 2022 22:00:56 +0000
+
 rust-python3-dll-a (0.2.3-1) unstable; urgency=medium
 
   * Package python3-dll-a 0.2.3 from crates.io using debcargo 2.5.0
