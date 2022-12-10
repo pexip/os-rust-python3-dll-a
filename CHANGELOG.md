@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2.6] - 2022-08-21
+
+### Features
+
+- Add MinGW-w64 `dlltool` program name configuration env var [#31](https://github.com/PyO3/python3-dll-a/pull/31)
+
+## [0.2.5] - 2022-07-14
+
+### Fixes
+
+- Fix PyPy import library name in [#27](https://github.com/PyO3/python3-dll-a/pull/27)
+
+## [0.2.4] - 2022-07-14
+
+### Features
+
+- Add PyPy support in [#25](https://github.com/PyO3/python3-dll-a/pull/25)
+
 ## [0.2.3] - 2022-05-17
 
 ### Features

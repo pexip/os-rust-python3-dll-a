@@ -81,7 +81,10 @@ PyClassMethod_New
 PyClassMethod_Type DATA
 PyCode_Addr2Line
 PyCode_Addr2Location
+PyCode_GetCellvars
 PyCode_GetCode
+PyCode_GetFreevars
+PyCode_GetVarnames
 PyCode_New
 PyCode_NewEmpty
 PyCode_NewWithPosOnlyArgs
@@ -1219,6 +1222,8 @@ _PyImport_FixupExtensionObject
 _PyImport_FrozenBootstrap DATA
 _PyImport_FrozenStdlib DATA
 _PyImport_FrozenTest DATA
+_PyImport_GetModuleAttr
+_PyImport_GetModuleAttrString
 _PyImport_GetModuleId
 _PyImport_IsInitialized
 _PyImport_ReleaseLock
