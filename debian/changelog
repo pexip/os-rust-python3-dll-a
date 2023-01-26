@@ -1,3 +1,16 @@
+rust-python3-dll-a (0.2.6-1pexip1) pexip; urgency=medium
+
+  * New upstream release
+
+ -- John-Mark Bell <jmb@pexip.com>  Thu, 26 Jan 2023 18:39:31 +0000
+
+rust-python3-dll-a (0.2.6-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package python3-dll-a 0.2.6 from crates.io using debcargo 2.6.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 10 Dec 2022 19:39:49 +0000
+
 rust-python3-dll-a (0.2.3-1pexip1) pexip; urgency=medium
 
   * Prepare Pexip packaging

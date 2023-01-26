@@ -17,9 +17,10 @@ Maintainer: Pexip AS <packaging@pexip.com>
 XSBC-Pexip-Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
 XSBC-Pexip-Original-Uploaders:
  Jelmer Vernooĳ <jelmer@debian.org>
-Standards-Version: 4.5.1
+Standards-Version: 4.6.1
 Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/python3-dll-a]
 Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/python3-dll-a
+X-Cargo-Crate: python3-dll-a
 Rules-Requires-Root: no
 XS-Pexip-Upstream: http://ftp.debian.org/debian/ bookworm
 
@@ -38,8 +39,8 @@ Provides:
  librust-python3-dll-a-0+default-dev (= ${binary:Version}),
  librust-python3-dll-a-0.2-dev (= ${binary:Version}),
  librust-python3-dll-a-0.2+default-dev (= ${binary:Version}),
- librust-python3-dll-a-0.2.3-dev (= ${binary:Version}),
- librust-python3-dll-a-0.2.3+default-dev (= ${binary:Version})
+ librust-python3-dll-a-0.2.6-dev (= ${binary:Version}),
+ librust-python3-dll-a-0.2.6+default-dev (= ${binary:Version})
 Description: Standalone python3(y).dll import library generator - Rust source code
  This package contains the source for the Rust python3-dll-a crate, packaged by
  debcargo for use with cargo and dh-cargo.
